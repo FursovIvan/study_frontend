@@ -1,0 +1,46 @@
+/* global reset */
+html, body, body div, span, label, h1, h2, h3, h4, h5, h6, p, a, em, img, s, strong, b, u, i, dl, dt, dd, ol, ul, li, button, article, aside, footer, header, nav, section, input {
+margin: 0;
+padding: 0;
+border: none;
+outline: none;
+background: none;
+list-style: none;
+}
+html * {
+max-height: 10000000px;
+}
+/* common */
+a {
+text-decoration: none;
+}
+button {
+cursor: pointer;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+
+/*structure */
+html {
+	height: 100%;
+}
+body {
+height: 100%;
+background: #fff;
+display: flex;
+flex-direction: column;
+}
+header {
+	height: 116px;
+	flex: none;
+	background: white;
+}
+footer {
+	height: 657px;
+	background: #316099;
+	flex: none;
+}
+main {
+	flex: auto;
+}
